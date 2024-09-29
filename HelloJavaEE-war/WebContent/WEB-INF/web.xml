@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<display-name>HelloJavaEE-war</display-name>
+	<servlet>
+		<description></description>
+	    <display-name>DisplayServlet</display-name>
+	    <servlet-name>DisplayServlet</servlet-name>
+	    <servlet-class>chapter1.web.DisplayServlet</servlet-class>
+	    <load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<description></description>
+	    <display-name>WriteServlet</display-name>
+	    <servlet-name>WriteServlet</servlet-name>
+	    <servlet-class>chapter1.web.WriteServlet</servlet-class>
+	    <load-on-startup>2</load-on-startup>
+	</servlet>
+</web-app>

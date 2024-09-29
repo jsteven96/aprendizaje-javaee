@@ -1,0 +1,20 @@
+package chapter1.model;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateful;
+
+/**
+ * Session Bean implementation class ModelEJB
+ */
+@Stateful
+@LocalBean
+public class ModelEJB {
+
+    /**
+     * Default constructor. 
+     */
+    public ModelEJB() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

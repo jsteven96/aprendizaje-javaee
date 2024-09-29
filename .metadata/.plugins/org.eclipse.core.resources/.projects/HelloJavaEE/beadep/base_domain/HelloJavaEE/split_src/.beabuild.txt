@@ -1,0 +1,5 @@
+C\:/Users/1073520770/Downloads/workspace_aprendizaje/HelloJavaEE/EarContent/APP-INF/classes = APP-INF/classes
+C\:/Users/1073520770/Downloads/workspace_aprendizaje/HelloJavaEE-war/WebContent = HelloJavaEE-war.war
+C\:/Users/1073520770/Downloads/workspace_aprendizaje/.metadata/.plugins/org.eclipse.core.resources/HelloJavaEE-war/build/weboutput = HelloJavaEE-war.war
+C\:/Users/1073520770/Downloads/workspace_aprendizaje/HelloJavaEE-war/build/classes = HelloJavaEE-war.war/WEB-INF/classes
+C\:/Users/1073520770/Downloads/workspace_aprendizaje/HelloJavaEE-jar/build/classes = HelloJavaEE-jar.jar

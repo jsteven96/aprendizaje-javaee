@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<display-name>HelloJavaEE-war</display-name>
+	<servlet>
+		<description></description>
+    <display-name>Log4jInitEndososARL</display-name>
+    <servlet-name>Log4jInitEndososARL</servlet-name>
+    <servlet-class>com.segurosbolivar.arl.gestionEndosos.servlets.Log4jInitEndososARL</servlet-class>
+    <init-param>
+      <description></description>
+      <param-name>log4j-localizacion</param-name>
+      <param-value>/WEB-INF/log4j.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+	</servlet>
+</web-app>

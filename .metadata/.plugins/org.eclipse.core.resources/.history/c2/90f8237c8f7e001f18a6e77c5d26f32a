@@ -1,0 +1,43 @@
+package chapter1.model;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateful;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnit;
+
+/**
+ * Session Bean implementation class ModelEJB
+ */
+@Stateful
+@LocalBean
+public class ModelEJB {
+	
+	@PersistenceUnit
+	private EntityManagerFactory emf;
+	
+	public void putUserMessage(String message) throws MessageException {
+		this.deleteMessage();
+		
+		try {
+			String decodedMessage = URLDecoder.decode(message, "UTF-8");
+			
+		} catch (UnsupportedEncodingException e) {
+			throw new MessageException("something odd about that message..." + message);
+		}
+	}
+	
+	public void deleteMessage() {
+		
+	}
+
+    /**
+     * Default constructor. 
+     */
+    public ModelEJB() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

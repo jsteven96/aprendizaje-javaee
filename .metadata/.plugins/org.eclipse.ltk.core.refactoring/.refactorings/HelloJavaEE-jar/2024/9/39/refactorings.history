@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;message&apos; in &apos;chapter1.model.ModelEJB.putUserMessage(...)&apos; to &apos;messageString&apos;&#x0D;&#x0A;- Original project: &apos;HelloJavaEE-jar&apos;&#x0D;&#x0A;- Original element: &apos;chapter1.model.ModelEJB.putUserMessage(String).message&apos;&#x0D;&#x0A;- Renamed element: &apos;message&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;message&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/ejbModule&lt;chapter1.model{ModelEJB.java[ModelEJB~putUserMessage~QString;@message!448!461!455!461!QString;!0!true" name="messageString" references="true" stamp="1727633885183" version="1.0"/>
+</session>
